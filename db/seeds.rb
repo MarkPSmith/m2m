@@ -10,5 +10,5 @@ Foo.create(name: "Foo 1")
 Foo.create(name: "Foo 2")
 Foo.create(name: "Foo 3")
 
-Foo.first.child_foos << Foo.find(2)
-Foo.first.child_foos << Foo.find(3)
+Foo.first.children << Foo.find(2)
+Foo.first.children << Foo.find(3)
