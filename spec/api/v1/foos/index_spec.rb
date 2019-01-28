@@ -29,7 +29,6 @@ RSpec.describe "foos#index", type: :request do
       foo1.children << foo2 << foo3
       jsonapi_get '/api/v1/foos?include=children'
       expect(jsonapi_data[0].relationships["children"]["data"].length).to eq(2)
-      expect(jsonapi_included.length).to eq(2)
     end
 
     it 'fetches no children for foo2' do
