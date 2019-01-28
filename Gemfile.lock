@@ -1,7 +1,9 @@
-PATH
-  remote: ../gems/graphiti
+GIT
+  remote: https://github.com/MarkPSmith/graphiti.git
+  revision: 21dfb045005ca8440b04f496df916fab4de3479c
+  ref: many-to-many-self-referential
   specs:
-    graphiti (1.0.rc.2)
+    graphiti (1.0.rc.8)
       activesupport (>= 4.1, < 6)
       concurrent-ruby (~> 1.0)
       dry-types (~> 0.13)

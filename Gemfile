@@ -45,7 +45,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # gem 'graphiti', :path => '~/Sites/gems/graphiti'
-gem 'graphiti', github: 'MarkPSmith/graphiti', branch: 'm2m-changes'
+gem 'graphiti', github: 'MarkPSmith/graphiti', ref: 'many-to-many-self-referential'
 # gem 'graphiti', :git => 'https://github.com/MarkPSmith/graphiti/tree/m2m-changes'
 gem 'vandal_ui'
 gem 'kaminari', '~> 1.0'
